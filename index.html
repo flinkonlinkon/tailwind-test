@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-General Sans text-white bg-black">
+    <section>
+    <div>
+        <div id="main" class="">
+            <nav class="flex justify-between text-xl ">
+               <span class="ml-3 mt-4">Linkon</span> 
+                <button id="menu" class="mr-3 mt-4">Menu</button>
+                <ul id="show" class="hidden relative left-[-50px] top-[100px]">
+                    <li><a href=""></a>Home</li>
+                    <li><a href=""></a>ixperience</li>
+                    <li><a href=""></a>ThePlug</li>
+                    <li><a href=""></a>Playground</li>
+                    <li><a href=""></a>Hudu</li>
+                    
+                </ul>
+            </nav>
+            <div><span class="text-center text-8xl relative text-[#A3A3A3] md:text-[180px]  md:relative md:top-[116px] md:left-7 md:uppercase">Product</span>
+            <span class="text-center text-8xl relative ml-16 mt-5 text-[#A3A3A3] md:text-[180px]  md:relative md:top-[100px] md:left-20 md:uppercase">Designer</span>
+            <span class="relative ml-[300px] md:relative top-[11px] left-[11px] md:left-[-382px] md:top-[131px] md:text-lg md:uppercase">based in toronto</span>
+            <span class="relative ml-[250px] top-20  md:relative md:top-[227px] md:left-[1032px] md:uppercase">available for freelance</span>
+            <span class="relative ml-[300px] top-20  md:relative md:top-[260px] md:left-[532px] md:uppercase">work from may 23</span>
+            </div>
+        </div>
+        
+        <!-- <button class="w-16 relative ml-3 bottom-[-350px]">Currently working at Yml </button> -->
+        <div class="flex justify-between">
+        <a class="relative ml-3 bottom-[-528px]  md:bottom-[-350px] w-16 md:uppercase" target="_blank" href="https://yml.co/codeandtheory">Currently working at Yml</a> 
+         <a class="relative mr-[37px] md:mr-[92px] bottom-[-528px]  md:bottom-[-350px] w-16 md:uppercase" target="_blank" href="https://community.protopie.io/c/our-ambassadors/">Protopie ambassador</a> 
+        </div>
+        <!-- <button class="w-16 relative ml-[244px]  bottom-[-330px]">Protopie ambassador</button> -->
+    </div>
+</section>
+
+
+    <section class="relative top-[600px] h-full md:relative md:top-[400px]"> 
+  <div>
+    <div class="text-[#A3A3A3] border-t-[1px] m-auto p-3 text-5xl flex justify-between w-4/5"><p>THE PLUG</p><p class="text-sm">2022</p></div>
+    <div class="text-[#A3A3A3] border-t-[1px] m-auto p-3 text-5xl flex justify-between w-4/5"><p>IXPERIENCE</p><p class="text-sm">2022</p></div>
+    <div class="text-[#A3A3A3] border-t-[1px] border-b-[1px] m-auto p-3 text-5xl flex justify-between w-4/5"><p>HUDU</p><p class="text-sm">2022</p></div>
+  </div>
+</section>
+
+<section class="h-full mt-[650px]">
+    <div class="md:flex md:p-16 align-center relative justify-center items-center">
+        <img class="md:ml-10" src="cynthia.png" alt="">
+        <div class="ml-2 mr-2 md:ml-6"><span class="text-[#A3A3A3]">(about me)</span>
+            <p class="text-white">I'm a product designer with a passion for creating products that not only look good but also solve real problems. When I'm not sketching ideas on paper, you can find me binge-watching a Netflix series or playing video games. My design philosophy is simple: make it visually appealing, functional, and bring a smile to people's faces. I'm the designer you want on your team if you want to make people say 'I need that in my life!'.</p>
+        </div>
+    </div>
+    <button class="rounded-full border-[1px] p-2 ml-2 md:relative md:left-[593px] md:top-[-224px]">Let's Talk</button>
+</section>
+
+<section class="h-full mt-[100px]">
+    <footer class="mb-5 flex justify-evenly uppercase">
+        <a class="hover:bg-red-300 hover:text-black rounded-full p-2" href="https://dribbble.com/CynthiaU">dribbble</a>
+        <a class="hover:bg-red-300 hover:text-black rounded-full p-2" href="https://www.instagram.com/cynthiaugwudesigns/">instagram </a>
+        <a class="hover:bg-red-300 hover:text-black rounded-full p-2" href="https://www.linkedin.com/checkpoint/challengesV2/AQFhyumiLhWlrwAAAZFQneszzLyFF55-JpF_xDeZGTBgrWakMH-_HIQmf5MWnDDQp_1v0DPln6H2H6mDg5UN1DxH0QlvY76c0g?original_referer=https%3A%2F%2Fcynthiaugwu.com%2F"> linkedin</a>
+        <a class="hover:bg-red-300 hover:text-black rounded-full p-2" href="https://x.com/CynthiiaUgwu?mx=2"> twitter</a>
+    </footer>
+</section>
+
+</body>
+<script>
+let menu = document.querySelector('#menu')
+let show = document.querySelector('#show')
+
+menu.addEventListener('click',()=>{
+    show.classList.toggle('hidden')
+    show.classList.toggle('block')
+    // console.log("hello");
+    
+})
+
+</script>
+</html>
